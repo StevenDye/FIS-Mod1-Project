@@ -8,9 +8,4 @@ def clean(df, col):
     df[col] = df[col].astype('int64')
     return df.head()
 
-def to_millions_usd(df, col):
-    import numpy as np
-    df[col] = df[col].map(lambda x: x/1_000_000)
-    df[col] = np.round(df[col], 2)
-    return df.head()
     
