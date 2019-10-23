@@ -22,8 +22,8 @@ Responsibilities:
  - Lint code and edit files
  
  Files in the Project folder in the repository:
- - FinalMod1Proj.ipynb: Final technical Jupyter notebook documenting code and analysis, written for technical audience
- - Narrative.ipynb: Final non-technical Jupyter notebook summarizing findings. 
+ - Technical.ipynb: Final technical Jupyter notebook documenting code and analysis, written for technical audience
+ - Narrative.ipynb: Final non-technical Jupyter notebook summarizing findings
  - AL_Summary_Tables.ipynb: Draft Jupyter notebook with tables
  - SD_Data_visualization.ipynb: Draft Jupyter notebook with visualizations
  - Data files:
