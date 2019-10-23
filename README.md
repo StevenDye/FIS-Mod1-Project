@@ -19,7 +19,7 @@ Responsibilities:
  - Merge notebooks into one file (Steven)
  - Identify key findings and develop recommendations (Both)
  - Create presentation (Both)
- - Lint code and edit files
+ - Lint code and edit files (Steven)
  
  Files in the Project folder in the repository:
  - Technical.ipynb: Final technical Jupyter notebook documenting code and analysis, written for technical audience
