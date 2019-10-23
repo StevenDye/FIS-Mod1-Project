@@ -1,11 +1,9 @@
 """ This file contains functions used to clean datasets in FinalMod1Proj."""
 
-def clean(df, col):
-    """Cleans commas and dollar signs and converts to integer"""
-    import numpy as np
-    df[col] = df[col].str.replace(',','')
-    df[col] = df[col].str.replace('$','')
-    df[col] = df[col].astype('int64')
-    return df.head()
 
-    
+def clean(data_frame, col):
+    """Cleans commas and dollar signs and converts to integer"""
+    data_frame[col] = data_frame[col].str.replace(',', '')
+    data_frame[col] = data_frame[col].str.replace('$', '')
+    data_frame[col] = data_frame[col].astype('int64')
+    return data_frame.head()
